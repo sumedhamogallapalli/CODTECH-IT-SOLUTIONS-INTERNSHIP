@@ -45,7 +45,7 @@ Based on the generated dashboard for **Nellore**, the following observations wer
 
 ---
 
-## **Task 2: Automated Report Generation 📊**
+# **Task 2: Automated Report Generation 📊**
 
 ### **Project Overview**
 The objective of this task was to develop a Python script that automates the process of data analysis and generates a formal, formatted PDF report. This simulates a real-world business scenario where raw data needs to be converted into an executive summary for decision-making.
