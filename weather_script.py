@@ -9,6 +9,13 @@ Original file is located at
 
 pip install requests pandas matplotlib seaborn
 
+"""
+CODTECH IT SOLUTIONS - INTERNSHIP TASK 1
+PROJECT: API INTEGRATION AND VISUALIZATION
+INTERN: Sumedha
+ID: CTIS8362
+"""
+
 import requests
 import pandas as pd
 import matplotlib.pyplot as plt
