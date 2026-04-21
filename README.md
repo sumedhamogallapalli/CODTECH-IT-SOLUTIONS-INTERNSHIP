@@ -71,6 +71,26 @@ The objective of this task was to develop a Python script that automates the pro
 
 ---
 
+## **Task 3: AI Chatbot with NLP 🤖**
+
+### **Project Overview**
+The goal of this task was to develop a sophisticated AI Chatbot capable of natural language understanding and real-time interaction. Unlike basic chatbots that use keyword matching, this system utilizes a **Transformer-based Deep Learning model** to analyze the semantic meaning of user queries.
+
+### **Key Features**
+*   **Deep Learning Engine:** Powered by `Sentence-BERT (SBERT)` using the `all-MiniLM-L6-v2` model for high-accuracy intent classification.
+*   **Semantic Mapping:** Uses **Cosine Similarity** to mathematically compare user input against a knowledge base, allowing it to understand variations in phrasing.
+*   **Real-Time Awareness:** Integrated with Python's `datetime` module to provide live system date and time information.
+*   **Modern Web UI:** Built with `Gradio` to provide a professional, responsive, and user-friendly chat interface.
+*   **Politeness & Conversational Lifecycle:** Handles greetings, gratitude (Thank you), technical info, and formal exit intents (Goodbye).
+
+### **Tech Stack**
+*   **Python:** Backend logic.
+*   **Sentence-Transformers:** Neural network embeddings.
+*   **Gradio:** Web-based interface.
+*   **PyTorch:** Tensor processing for AI calculations.
+
+---
+
 **Intern Information:**
 *   **Name:** M.Sumedha
 *   **ID:** CTIS8362
