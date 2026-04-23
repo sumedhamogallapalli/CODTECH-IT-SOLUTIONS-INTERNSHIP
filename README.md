@@ -91,6 +91,20 @@ The goal of this task was to develop a sophisticated AI Chatbot capable of natur
 
 ---
 
+## **Task 4: Machine Learning - Spam Detection 📧**
+
+### **Project Overview**
+The final deliverable is a comprehensive Jupyter Notebook that implements a predictive model to classify SMS messages. This project demonstrates the full Machine Learning lifecycle: Data Preparation, Feature Engineering, Model Selection, and Performance Evaluation.
+
+### **Key Features**
+*   **Vectorization:** TF-IDF (Term Frequency-Inverse Document Frequency) for advanced text feature extraction.
+*   **Algorithm:** Multinomial Naive Bayes (Ideal for high-dimensional text data).
+*   **Evaluation:** Detailed report featuring Accuracy, Precision, Recall, and a Heatmap Confusion Matrix.
+*   **Deliverable Format:** Fully documented Jupyter Notebook (.ipynb).
+
+---
+
+
 **Intern Information:**
 *   **Name:** M.Sumedha
 *   **ID:** CTIS8362
