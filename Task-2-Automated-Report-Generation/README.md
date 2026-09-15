@@ -1,34 +1,30 @@
-# CODTECH IT SOLUTIONS — Task 1: Weather Analytics Dashboard 🌦️
+# CODTECH IT SOLUTIONS — Task 2: Automated Report Generation 📊
 
-A Python-based weather analytics application developed as part of my **CODTECH IT SOLUTIONS Internship**.
+A Python-based automated reporting application developed as part of my **CODTECH IT SOLUTIONS Internship**.
 
-The project retrieves real-time weather forecast data from the **OpenWeatherMap API** and generates a comprehensive visualization dashboard to analyze temperature, humidity, wind speed, and atmospheric conditions.
+The project automates the process of analyzing raw sales data and generating a professional, formatted PDF report containing statistical insights, data tables, and visualizations.
 
 ---
 
 ## 📌 Project Overview
 
-The objective of this project is to build a Python-based tool that collects weather forecast data for a selected city and transforms the data into meaningful visual insights.
+The objective of this project is to develop a Python script that converts raw sales data into a structured executive-style PDF report.
 
-The application retrieves a **5-day / 3-hour weather forecast** and generates four analytical visualizations covering:
+The application reads sales data from a CSV file, performs statistical analysis, identifies important business insights, generates visualizations, and combines the results into a professionally formatted PDF document.
 
-- 🌡️ Temperature trends
-- 💧 Humidity levels
-- 💨 Wind speed
-- ☁️ Atmospheric conditions
-
-The project also exports the collected weather data to a CSV file for further analysis.
+This project demonstrates how Python can automate a real-world business reporting workflow.
 
 ---
 
 ## 🎯 Objectives
 
-- Fetch weather forecast data using a public API.
-- Process and organize weather data using Pandas.
-- Analyze temperature, humidity, wind, and weather conditions.
-- Generate a visual weather analytics dashboard.
-- Export raw weather data to a CSV file.
-- Implement error handling for reliable execution.
+- Process raw sales data automatically.
+- Perform statistical analysis using Pandas.
+- Calculate total revenue and average sales.
+- Identify top-performing products.
+- Generate data visualizations using Matplotlib.
+- Create a professional PDF report using FPDF.
+- Combine analysis, tables, and charts into a single report.
 
 ---
 
@@ -38,95 +34,65 @@ The project also exports the collected weather data to a CSV file for further an
 
 - **Python 3.x**
 
-### API
-
-- **OpenWeatherMap API**
-- 5-Day / 3-Hour Forecast
-
 ### Libraries
 
-- **Requests** — Handles HTTP requests and retrieves weather data from the API.
-- **Pandas** — Used for data manipulation, cleaning, and CSV export.
-- **Matplotlib** — Used for creating analytical plots and dashboard layout.
-- **Seaborn** — Used for statistical visualization and styling.
+- **Pandas** — Data manipulation, processing, and statistical analysis.
+- **Matplotlib** — Data visualization and chart generation.
+- **FPDF** — PDF document creation and formatting.
 
 ---
 
 ## ✨ Key Features
 
-- 🌦️ Real-time weather forecast data retrieval
-- 📊 Four analytical weather charts
-- 🌡️ Temperature trend analysis
-- 💧 Humidity analysis
-- 💨 Wind speed analysis
-- ☁️ Atmospheric condition analysis
-- 📁 Weather data export to CSV
-- 🛡️ Error handling for API and data-related issues
-- 📈 High-resolution dashboard output
+### 📊 Automated Data Processing
 
----
+Reads raw sales data from a CSV file and processes the information automatically using Pandas.
 
-## 📦 Key Deliverables
+### 📈 Statistical Analysis
 
-### 1. Python Script
+The application calculates important business metrics including:
 
-An object-oriented Python application that retrieves, processes, and analyzes weather data with appropriate error handling.
+- Total Revenue
+- Average Sales
+- Top-performing Products
+- Product-wise Sales Performance
 
-### 2. Weather Analytics Dashboard
+### 📄 Professional PDF Report
 
-A high-resolution PNG dashboard containing four analytical charts.
+Generates a formatted PDF report containing:
 
-### 3. Weather Data Export
+- Corporate-style header and footer
+- Page numbering
+- Structured data tables
+- Statistical summaries
+- Business insights
+- Visual charts
 
-A CSV file containing the collected weather forecast data for further analysis.
+### 📐 Smart PDF Layout
 
----
+The report includes a layout system that manages page breaks and helps prevent headings from being separated from their related content.
 
-## 📊 Dashboard Insights — Nellore City
+### 📉 Integrated Visualizations
 
-The generated dashboard was analyzed using weather data for **Nellore**.
-
-### 🌡️ Temperature Trends
-
-The temperature reached approximately **41°C** at its peak, while nighttime temperatures dropped to around **25°C**, showing a clear variation throughout the day.
-
-### ☁️ Atmospheric Conditions
-
-The weather conditions were predominantly stable, with approximately:
-
-- **62.5% Clear skies**
-- **37.5% Cloud cover**
-
-### 💧 Humidity
-
-Humidity levels showed significant variation:
-
-- Maximum: approximately **85%**
-- Minimum: approximately **15%**
-
-Higher humidity levels were observed during early morning hours, while lower levels occurred during peak heat periods.
-
-### 💨 Wind Dynamics
-
-Wind speeds remained moderate, with peak gusts reaching approximately **9 m/s**.
+High-resolution charts generated using Matplotlib are embedded directly into the PDF report.
 
 ---
 
 ## 🔄 Project Workflow
 
 ```text
-OpenWeatherMap API
+Raw Sales Data (CSV)
         ↓
-Weather Forecast Data
+Data Loading using Pandas
         ↓
-Python Requests
+Data Cleaning & Processing
         ↓
-Data Processing using Pandas
+Statistical Analysis
         ↓
-Weather Data Analysis
+Revenue & Product Analysis
         ↓
-Matplotlib + Seaborn
+Chart Generation using Matplotlib
         ↓
-Weather Analytics Dashboard
+PDF Report Creation using FPDF
         ↓
-CSV Data Export
+Final Executive Report
